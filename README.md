@@ -14,11 +14,11 @@ The dataset used for this project contains pancreatic CT/MRI scan images with co
  - Python
  - Libraries and dependencies:
      - Flask
-     - torch
-     - torchvision
-  - torch-geometric
+     - Torch
+     - Torchvision
+  - Torch-geometric
   - Pillow
-  - google-generativeai (Gemini)
+  - Google-generativeai (Gemini)
 ## Usage
 
 1. Clone the repository to your local machine:
@@ -31,10 +31,10 @@ The dataset used for this project contains pancreatic CT/MRI scan images with co
 
 Explain the preprocessing steps performed on CT/MRI images, such as:
 
-   - resizing images to 224×224
-   - converting to tensor
-   - normalization using ImageNet mean and std
-   - augmentation like rotation/flip if used during training
+   - Resizing images to 224×224
+   - Converting to tensor
+   - Normalization using ImageNet mean and std
+   - Augmentation like rotation/flip if used during training
 
 ## Model Training
 
@@ -46,9 +46,9 @@ Provide details about the hybrid model:
      
 Training details:
 
-   - optimizer, learning rate, epochs
-   - loss function (e.g., CrossEntropyLoss)
-   - hyperparameters: hidden channels, dropout, etc.
+   - Optimizer, learning rate, epochs
+   - Loss function (e.g., CrossEntropyLoss)
+   - Hyperparameters: hidden channels, dropout, etc.
 
 ## Evaluation
 
@@ -62,22 +62,22 @@ Discuss the metrics used to evaluate the model performance such as:
 ## Results
 
 Summarize the findings and results of pancreatic cancer prediction using the CNN + GNN model, including:
-  - performance metrics
-  - confidence output
-  - model behavior on cancer vs non-cancer cases
+  - Performance metrics
+  - Confidence output
+  - Model behavior on cancer vs non-cancer cases
 
 ## AI Chatbot Assistant
 
  The web app includes a Gemini-powered AI Assistant that can:
-   - explain how to use the website
-   - provide general awareness about pancreatic cancer
-   - answer basic questions about CT/MRI imaging and AI models
+   - Explain how to use the website
+   - Provide general awareness about pancreatic cancer
+   - Answer basic questions about CT/MRI imaging and AI models
 The chatbot does not provide medical diagnosis or treatment advice.
 
 ## Acknowledgments
 
 Any acknowledgments or credits for:
-  - dataset sources
+  - Dataset sources
   - PyTorch / Torch Geometric
   - Flask
   - Gemini API
